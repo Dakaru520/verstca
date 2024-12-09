@@ -1,0 +1,323 @@
+:root {
+    --colorWhite: #FFFFFF;
+    --colorBlack: #252525;
+    --colorFooter: #4C5866;
+    --color1: #EBEBEB;
+    --color2: #9027a2;
+    --color3: #F5F5F5;
+    --color4: #808080;
+    --color5: #a6a6a6;
+    --colorA: red;
+    --colorB: rgb(39, 149, 48);
+}
+
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(https://fonts.gstatic.com/s/roboto/v15/mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2)
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+p {
+    font-family: 'Roboto';
+}
+
+nav {
+    font-family: 'Roboto';
+    color: var(--color4);
+}
+
+.Desktop{
+    display: flex;
+    flex-direction: column;
+    height: 3234px;
+}
+
+/*Настройка, компилировать все что должно быть в реальности а не исп для теста*/
+.header {
+    padding: 0 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 79px;
+    top: 0px;
+    background-color: var(--colorWhite);
+}
+
+/*Класс header и его внутреняя настройка*/
+.logotip {
+    width: 160px;
+}
+
+.textHeader {
+    display: flex;
+    font-size: 20px;
+    width: 674px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerIMG {
+    width: 24px;
+    height: 24px;
+}
+
+/*Внимательно это содержание страницы*/
+.Main {
+    display: flex;
+    width: 100vw;
+
+    height: 3234px;
+    background-color: var(--color3);
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.hero {
+
+    padding: 0 5vw;
+    display: flex;
+    height: 620px;
+    width: 100vw;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+
+.pAndButtom {
+    /*align-items: center;*/
+    display: flex;
+    flex-direction: column;
+    height: 361px;
+    width: 445px;
+    margin-top: 129px;
+
+}
+
+.pHero1 {
+    width: 100%;
+    font-family: 'Roboto';
+    font-size: 50px;
+    color: var(--colorBlack);
+}
+
+.pHero2 {
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: var(--color4);
+}
+
+.button1 {
+    width: 60%;
+    height: 70px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    border: 1px solid var(--color2);
+
+    color: var(--color2);
+    background-color: var(--color3);
+}
+
+.ForFrame219 {
+    height: 973px;
+    width: 100vw;
+    background-color: var(--color1);
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.Frame219 {
+    padding: 0 5vw;
+    margin-top: 90px;
+
+    height: 793px;
+    width: 90vw;
+
+    display: flex;
+
+    flex-direction: column;
+}
+
+
+
+
+.Frame216 {
+    display: flex;
+    align-items: center;
+
+}
+
+.Framein216 {
+    display: flex;
+}
+
+.TextFrame216 {
+    font-size: 18px;
+}
+
+.TextFrame216p1 {
+    color: var(--colorBlack);
+}
+
+.TextFrame216p2 {
+    color: var(--color4);
+}
+
+.Frame215 {
+    margin-top: 90px;
+    display: flex;
+    height: 564px;
+}
+
+.frame215p1 {
+    font-size: 40px;
+    color: var(--colorBlack);
+}
+
+.frame215p2 {
+    font-size: 20px;
+    color: var(--color4);
+}
+
+.frame215IMG {
+    height: 564px;
+
+}
+
+.Frame139 {
+    display: flex;
+    padding: 90px 5vw;
+    width: 90vw;
+    height: 645px;
+    justify-content: space-between;
+}
+
+.Frame139n {
+    display: flex;
+    flex-direction: column;
+    height: 465px;
+    width: 23%;
+    justify-content: space-between;
+}
+
+.Frame139p1 {
+    font-size: 30px;
+    color: var(--colorBlack);
+
+}
+
+.Frame139p2 {
+    font-size: 10px;
+    color: var(--color5);
+}
+
+.Frame139p3 {
+    font-size: 18px;
+    color: var(--color4);
+}
+
+.Frame139p4 {
+    font-size: 18px;
+    color: var(--color2);
+}
+
+.Frame139n2 {
+    display: flex;
+}
+
+.Frame139n2IMG {
+    margin-left: 5px;
+}
+
+.Frame139IMG {
+    background-color: #ededed;
+}
+
+
+
+.ForFrame224 {
+    background-color: var(--color1);
+    height: 315px;
+    width: 100vw;
+}
+
+.Frame224 {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 6vw;
+}
+
+
+.Frame229{
+    align-items: center;
+    display: flex;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 90px;
+    justify-content: space-between;
+}
+
+.Frame229p{
+    height: 272px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Frame229p1{
+    font-size: 30px;
+    color: var(--colorBlack);
+}
+.Frame229p2{
+    font-size: 18px;
+    color: var(--color4);
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    height: 101px;
+    width: 100vw;
+    
+}
+.footer1{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--colorFooter);
+    padding: 0 5vw;
+}
+
+.footer2{
+    width: 100vw;
+    height: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color1);
+
+}
+
+.footer2IMG{
+    /* width: 92px; */
+    height: 15px;
+    
+}
